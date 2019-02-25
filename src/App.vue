@@ -1,15 +1,17 @@
 <template>
   <div id="app">
     <TheHeader/>
+    <TheBody/>
   </div>
 </template>
 
 <script>
-import TheHeader from './components/TheHeader'
+import TheHeader from './views/TheHeader'
+import TheBody from './views/TheBody'
 export default {
   name: 'App',
   components:{
-    TheHeader,
+    TheHeader,TheBody
   }
 }
 </script>

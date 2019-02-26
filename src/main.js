@@ -10,11 +10,12 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import 'vue-awesome/icons'
 import Icon from 'vue-awesome/components/Icon'
+import animated from 'animate.css' 
 Vue.component('v-icon', Icon)
 
 Vue.use(BootstrapVue)
 Vue.config.productionTip = false
-
+Vue.use(animated)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

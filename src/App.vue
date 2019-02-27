@@ -2,16 +2,18 @@
   <div id="app">
     <TheHeader/>
     <TheBody/>
+     <TheFoot/>
   </div>
 </template>
 
 <script>
 import TheHeader from './views/TheHeader'
 import TheBody from './views/TheBody'
+import TheFoot from './views/TheFoot'
 export default {
   name: 'App',
   components:{
-    TheHeader,TheBody
+    TheHeader,TheBody,TheFoot
   }
 }
 </script>

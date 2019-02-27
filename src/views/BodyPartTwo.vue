@@ -46,11 +46,11 @@ export default {};
 .bodypart2-1 {
   background: url("https://s2.ax1x.com/2019/02/26/kIUBK1.jpg");
   background-size: 640px 420px;
-  width: 640px;
+  width: 33.3%;
   height: 420px;
 }
 .bodypart2-1-1 {
-  width: 640px;
+//  width: 33.3%;
   height: 420px;
   background-color: rgba(12, 11, 11, 0.53);
   p {
@@ -85,13 +85,13 @@ export default {};
 .bodypart2-2 {
   background: url("https://s2.ax1x.com/2019/02/26/kIUDDx.jpg");
   background-size: 640px 420px;
-  width: 640px;
+  width: 33.3%;
   height: 420px;
 }
 .bodypart2-3 {
   background: url("https://s2.ax1x.com/2019/02/26/kIaao8.jpg");
   background-size: 640px 420px;
-  width: 640px;
+ width: 33.3%;
   height: 420px;
 }
 </style>

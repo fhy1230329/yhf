@@ -11,152 +11,150 @@
           </a>
           <ul class="nav-level-2">
             <li>
-              <a>HOMEPAGE V1</a>
+              <a href="#">HOMEPAGE V1</a>
             </li>
             <li>
-              <a>HOMEPAGE V2</a>
+              <a href="#">HOMEPAGE V2</a>
             </li>
             <li>
-              <a>HOMEPAGE V3</a>
+              <a href="#">HOMEPAGE V3</a>
             </li>
             <li>
-              <a>HOMEPAGE V4</a>
+              <a href="#">HOMEPAGE V4</a>
             </li>
             <li>
-              <a>HOMEPAGE V5</a>
+              <a href="#">HOMEPAGE V5</a>
             </li>
             <li>
-              <a>HOMEPAGE V6</a>
+              <a href="#">HOMEPAGE V6</a>
             </li>
           </ul>
         </li>
         <li class="has-sub">
-          <a href>
+          <a href="#">
             <span>PROJECTS</span>
           </a>
-           <ul class="nav-level-2">
+          <ul class="nav-level-2">
             <li>
-              <a>GRID 2 COLUMNS V1</a>
+              <a href="#">GRID 2 COLUMNS V1</a>
             </li>
             <li>
-              <a>GRID 3 COLUMNS V1</a>
+              <a href="#">GRID 3 COLUMNS V1</a>
             </li>
             <li>
-              <a>GRID 4 COLUMNS V1</a>
+              <a href="#">GRID 4 COLUMNS V1</a>
             </li>
             <li>
-              <a>GRID 2 COLUMNS V1</a>
+              <a href="#">GRID 2 COLUMNS V1</a>
             </li>
             <li>
-              <a>GRID 3 COLUMNS V1</a>
+              <a href="#">GRID 3 COLUMNS V1</a>
             </li>
             <li>
-              <a>GRID 4 COLUMNS V1</a>
-            </li>
-             <li>
-              <a>PORTFOLIO DETAILS 1</a>
+              <a href="#">GRID 4 COLUMNS V1</a>
             </li>
             <li>
-              <a>PORTFOLIO DETAILS 2</a>
+              <a href="#">PORTFOLIO DETAILS 1</a>
             </li>
             <li>
-              <a>PORTFOLIO DETAILS 3</a>
+              <a href="#">PORTFOLIO DETAILS 2</a>
+            </li>
+            <li>
+              <a href="#">PORTFOLIO DETAILS 3</a>
             </li>
           </ul>
         </li>
         <li class="has-sub">
-          <a href>
+          <a href="#">
             <span>SERVICES</span>
           </a>
-           <ul class="nav-level-2">
+          <ul class="nav-level-2">
             <li>
-              <a>SERVICES LIST</a>
+              <a href="#">SERVICES LIST</a>
             </li>
             <li>
-              <a>SERVICES DETAILS V1</a>
+              <a href="#">SERVICES DETAILS V1</a>
             </li>
             <li>
-              <a>SERVICES DETAILS V2</a>
+              <a href="#">SERVICES DETAILS V2</a>
             </li>
-            
           </ul>
         </li>
         <li class="has-sub">
-          <a href>
+          <a href="#">
             <span>ABOUT</span>
           </a>
         </li>
         <li class="has-sub">
-          <a href>
+          <a href="#">
             <span>BLOG</span>
           </a>
           <ul class="nav-level-2">
             <li>
-              <a>GRID 2 COLUMNS </a>
+              <a href="#">GRID 2 COLUMNS</a>
             </li>
             <li>
-              <a>GRID 2 COLUMNS</a>
+              <a href="#">GRID 2 COLUMNS</a>
             </li>
             <li>
-              <a>GRID 2 COLUMNS</a>
+              <a href="#">GRID 2 COLUMNS</a>
             </li>
             <li>
-              <a>BLOG LIST</a>
+              <a href="#">BLOG LIST</a>
             </li>
             <li>
-              <a>BLOG DETAIL</a>
+              <a href="#">BLOG DETAIL</a>
             </li>
           </ul>
         </li>
         <li class="has-sub">
-          <a href>
+          <a href="#">
             <span>PAGES</span>
           </a>
           <ul class="nav-level-2">
             <li>
-              <a>ELEMENT</a>
+              <a href="#">ELEMENT</a>
             </li>
             <li>
-              <a>TYPOGRAPHY</a>
+              <a href="#">TYPOGRAPHY</a>
             </li>
             <li>
-              <a>404 PAGE</a>
+              <a href="#">404 PAGE</a>
             </li>
             <li>
-              <a>COMMING SOON</a>
+              <a href="#">COMMING SOON</a>
             </li>
-           
           </ul>
         </li>
         <li class="has-sub">
-          <a href>
+          <a href="#">
             <span>SHOP</span>
           </a>
           <ul class="nav-level-2">
             <li>
-              <a>STORE CATALOG</a>
+              <a href="#">STORE CATALOG</a>
             </li>
             <li>
-              <a>SHOPPING CART</a>
+              <a href="#">SHOPPING CART</a>
             </li>
             <li>
-              <a>SINGLE PRODUCT</a>
+              <a href="#">SINGLE PRODUCT</a>
             </li>
           </ul>
         </li>
         <li class="has-sub">
-          <a href>
+          <a href="#">
             <span>CONTACT US</span>
           </a>
           <ul class="nav-level-2">
             <li>
-              <a>CONTACT STYLE1</a>
+              <a href="#">CONTACT STYLE1</a>
             </li>
             <li>
-              <a>CONTACT STYLE2</a>
+              <a href="#">CONTACT STYLE2</a>
             </li>
             <li>
-              <a>CONTACT STYLE3</a>
+              <a href="#">CONTACT STYLE3</a>
             </li>
           </ul>
         </li>
@@ -165,17 +163,17 @@
     <div class="header-right">
       <ul class="nav-level1-1">
         <li class="header-right-tel">
-          <a href>
+          <a href="#">
             <span>TOLL FREE:800 345 6889</span>
           </a>
         </li>
         <li class="header-right-tel">
-          <a href>
+          <a href="#">
             <span class="right-icon-bag"></span>
           </a>
         </li>
         <li class="header-right-tel">
-          <a href>
+          <a href="#">
             <span class="right-icon-search"></span>
           </a>
         </li>
@@ -205,7 +203,12 @@ export default {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 100%;
   height: 80px;
+  // position:fixed;
+  // top:0;
+  // left:0;
+  background-color: fff;
 }
 .page-logo {
   height: 29px;
@@ -226,7 +229,7 @@ export default {
   ul li:not(:last-child) a span::after {
     content: "|";
     margin: 32px;
-    color:#757474
+    color: #757474;
   }
 }
 .header-right {
@@ -249,22 +252,27 @@ export default {
   .nav-level-2 > li {
     visibility: visible;
     background: #eacc1d;
+    &:hover {
+      background: rgb(51, 50, 50);
+      a {
+        color: #eacc1d;
+      }
+    }
   }
 }
 .nav-level-2 > li {
-  visibility: hidden; 
+  visibility: hidden;
 }
 .nav-level-2 {
   list-style: none;
   position: absolute;
-  z-index: 10;
-  //  display: none;
+  z-index: 1;
 }
-.nav-level-2 a:hover {
-  display: block;
-  color: #eacc1d;
-  background-size: 100px 50p;
-}
+// .nav-level-2 a:hover {
+//   display: block;
+//   color: #1d1c19;
+//   background-size: 100px 50p;
+// }
 
 .header-center .has-sub a {
   display: block;
@@ -290,15 +298,15 @@ export default {
   font-size: 12px;
   letter-spacing: 2px;
   font-family: initial;
-  margin-left: -2px;
+  margin-right: 20px;
 }
 .header-right-tel a :hover {
   color: #eacc1d;
 }
 .header-right ul li:not(:last-child) a span::after {
   content: "|";
-  margin: 20px;
-  color:#757474;
+  margin-left: 25px;
+  color: #757474;
 }
 .right-icon-bag {
   background: url("https://s2.ax1x.com/2019/02/22/kfnLq0.png") no-repeat left

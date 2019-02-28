@@ -283,6 +283,9 @@ export default {
   font-size: 12px;
   letter-spacing: 1.5px;
   font-family: sans-serif;
+  &:hover{
+    color: #eacc1d;
+  }
 }
 .nav-level1-1 {
   list-style: none;

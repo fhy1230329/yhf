@@ -6,6 +6,8 @@
          <BodyPartThree/>
          <BodyPartFour/>
          <BodyPartFive/>
+         <BodyPartSix/>
+         <BodyPartSeven/>
          <BodyPartEight/>
     </div>
 </template>
@@ -16,6 +18,8 @@ import BodyPartTwo from  '@/views/BodyPartTwo'
 import BodyPartThree from  '@/views/BodyPartThree'
 import BodyPartFour from  '@/views/BodyPartFour'
 import BodyPartFive from  '@/views/BodyPartFive'
+import BodyPartSix from  '@/views/BodyPartSix'
+import BodyPartSeven from  '@/views/BodyPartSeven'
 import BodyPartEight from  '@/views/BodyPartEight'
 
 export default {
@@ -26,6 +30,8 @@ export default {
    BodyPartThree,
    BodyPartFour,
    BodyPartFive,
+   BodyPartSix,
+   BodyPartSeven,
    BodyPartEight
   }
 }

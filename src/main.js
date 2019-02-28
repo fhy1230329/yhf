@@ -11,8 +11,10 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 import 'vue-awesome/icons'
 import Icon from 'vue-awesome/components/Icon'
 import animated from 'animate.css' 
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+import 'swiper/dist/css/swiper.css'
+Vue.use(VueAwesomeSwiper)
 Vue.component('v-icon', Icon)
-
 Vue.use(BootstrapVue)
 Vue.config.productionTip = false
 Vue.use(animated)

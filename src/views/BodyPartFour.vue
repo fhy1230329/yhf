@@ -284,14 +284,6 @@ export default {};
     }
   }
 }
-// https://s2.ax1x.com/2019/02/27/kTGRFe.jpg
-// https://s2.ax1x.com/2019/02/27/kTGIyt.jpg
-// https://s2.ax1x.com/2019/02/27/kTGfWd.jpg
-// https://s2.ax1x.com/2019/02/27/kTJGpd.jpg
-// https://s2.ax1x.com/2019/02/27/kTGWJH.jpg
-// https://s2.ax1x.com/2019/02/27/kTG5QI.jpg
-// https://s2.ax1x.com/2019/02/27/kTG4SA.jpg
-// https://s2.ax1x.com/2019/02/27/kTGoOP.jpg
 </style>
 
 

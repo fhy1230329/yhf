@@ -17,7 +17,7 @@
           <br>Inspired by nature and created comfortable
           <br>space for your life
         </p>
-        <a href>OUR PROJECT</a>
+        <a href="">OUR PROJECT</a>
       </div>
     </div>
     <div class="bodypart2-3">

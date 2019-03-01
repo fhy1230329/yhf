@@ -1,22 +1,11 @@
 <template>
   <div id="app">
-    <TheHeader/>
-    <TheBody/>
-     <TheFoot/>
-     
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import TheHeader from './views/TheHeader'
-import TheBody from './views/TheBody'
-import TheFoot from './views/TheFoot'
-export default {
-  name: 'App',
-  components:{
-    TheHeader,TheBody,TheFoot
-  }
-}
+
 </script>
 
 <style>

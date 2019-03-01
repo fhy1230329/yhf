@@ -6,7 +6,7 @@
     <div class="header-center">
       <ul class="nav-level-1">
         <li class="has-sub">
-          <a href="#">
+          <a href="./">
             <span>HOME</span>
           </a>
           <ul class="nav-level-2">
@@ -31,7 +31,7 @@
           </ul>
         </li>
         <li class="has-sub">
-          <a href="#">
+          <a href="/Projects">
             <span>PROJECTS</span>
           </a>
           <ul class="nav-level-2">
@@ -65,7 +65,7 @@
           </ul>
         </li>
         <li class="has-sub">
-          <a href="#">
+          <a href="/Services">
             <span>SERVICES</span>
           </a>
           <ul class="nav-level-2">
@@ -188,8 +188,8 @@ export default {
   data() {
     return {
       pageLogo: "./static/img/logo.png",
-      righticonbag: "./static/img/icon-bag.png",
-      righticonsearch: "./static/img/icon-search.png"
+      // righticonbag: "./static/img/icon-bag.png",
+      // righticonsearch: "./static/img/icon-search.png"
     };
   }
 };
@@ -250,7 +250,7 @@ export default {
 
 .has-sub:hover {
   .nav-level-2 > li {
-    visibility: visible;
+    display: block;
     background: #eacc1d;
     &:hover {
       background: rgb(51, 50, 50);
@@ -261,12 +261,13 @@ export default {
   }
 }
 .nav-level-2 > li {
-  visibility: hidden;
+  display: none;
 }
+
 .nav-level-2 {
   list-style: none;
   position: absolute;
-  z-index: 1;
+  z-index: 9;
 }
 // .nav-level-2 a:hover {
 //   display: block;

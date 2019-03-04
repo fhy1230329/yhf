@@ -2,7 +2,7 @@
     <div class="servicespart1">
         <div class="servicespart1-box">
         <p> PORTFOLIO GRID</p>
-        <font><a href="">HOME </a><span>/</span>  OUR SERVICES</font>
+        <font><a href="./">HOME </a><span>/</span>  OUR SERVICES</font>
         </div>
     </div>
 </template>

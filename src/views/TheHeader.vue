@@ -81,12 +81,12 @@
           </ul>
         </li>
         <li class="has-sub">
-          <a href="#">
+          <a href="/About">
             <span>ABOUT</span>
           </a>
         </li>
         <li class="has-sub">
-          <a href="#">
+          <a href="/Blog">
             <span>BLOG</span>
           </a>
           <ul class="nav-level-2">

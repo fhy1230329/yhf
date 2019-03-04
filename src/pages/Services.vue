@@ -1,5 +1,5 @@
 <template>
-  <div class="Projects">
+  <div class="Services">
     <TheHeader/>
     <ServicesPartOne/>
     <ServicesPartTwo/>
@@ -16,7 +16,7 @@ import ServicesPartThree from '@/views/ServicesPartThree'
 import ServicesPartFour from '@/views/ServicesPartFour'
 import TheFoot from '@/views/TheFoot'
 export default {
-  name: 'Index',
+  name: 'Services',
   components:{
     TheHeader, 
     ServicesPartOne,

@@ -171,7 +171,7 @@ export default {};
     .bodypart4-3-1 {
       width: 100%;
       height: 359px;
-      background-color: aquamarine;
+     
       display: flex;
       flex-direction: row;
       .bodypart4-3-1-1 {
@@ -229,7 +229,7 @@ export default {};
     .bodypart4-3-2 {
       width: 100%;
       height: 359px;
-      background-color: bisque;
+      
       display: flex;
       flex-direction: row;
       .bodypart4-3-2-1 {

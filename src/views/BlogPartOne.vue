@@ -1,8 +1,8 @@
 <template>
-    <div class=" projectspart1">
-        <div class="projectspart1-box">
-        <p> PORTFOLIO GRID</p>
-        <font><a href="./">HOME </a><span>/</span>  PORTFOLIO GRID</font>
+    <div class="blogpart1">
+        <div class="blogpart1-box">
+        <p> BLOG</p>
+        <font><a href="./">HOME</a>&nbsp;&nbsp;<span>/</span>&nbsp;&nbsp;BLOG</font>
         </div>
     </div>
 </template>
@@ -11,12 +11,12 @@ export default {
 }
 </script>
 <style lang="less" scoped>
-.projectspart1{
+.blogpart1{
     width: 100%;
     height: 335px;
     background-color:rgb(33, 33, 33) ;
     position: relative;
-    .projectspart1-box{
+    .blogpart1-box{
         width: 300px;
         height: 90px;
         position: absolute;
@@ -46,4 +46,3 @@ export default {
     }
 }
 </style>
-

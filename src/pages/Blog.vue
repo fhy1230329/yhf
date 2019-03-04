@@ -1,23 +1,23 @@
 <template>
-  <div class="Projects">
+  <div class="Blog">
     <TheHeader/>
-    <ProjectsPartOne/>
-    <ProjectsPartTwo/>
+    <BlogPartOne/>
+    <BlogPartTwo/>
      <TheFoot/>
     
   </div>
 </template>
 <script>
 import TheHeader from '@/views/TheHeader'
-import ProjectsPartOne from '@/views/ProjectsPartOne'
-import ProjectsPartTwo from '@/views/ProjectsPartTwo'
+import BlogPartOne from '@/views/BlogPartOne'
+import BlogPartTwo from '@/views/BlogPartTwo'
 import TheFoot from '@/views/TheFoot'
 export default {
-  name: 'Projects',
+  name: 'Blog',
   components:{
     TheHeader, 
-    ProjectsPartOne,
-    ProjectsPartTwo,
+    BlogPartOne,
+    BlogPartTwo,
     TheFoot
   }
 }

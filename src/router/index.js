@@ -3,6 +3,9 @@ import Router from 'vue-router'
 import Index from '@/pages/Index'
 import Projects from '@/pages/Projects'
 import Services from '@/pages/Services'
+import Blog from '@/pages/Blog'
+
+import About from '@/pages/About'
 
 Vue.use(Router)
 
@@ -23,6 +26,16 @@ export default new Router({
       path: '/Services',
       name: 'Services',
       component: Services
+    },
+    {
+      path: '/About',
+      name: 'About',
+      component: About
+    },
+    {
+      path: '/Blog',
+      name: 'Blog',
+      component: Blog
     },
 
   ]

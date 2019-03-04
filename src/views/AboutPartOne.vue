@@ -1,8 +1,8 @@
 <template>
-    <div class=" projectspart1">
-        <div class="projectspart1-box">
-        <p> PORTFOLIO GRID</p>
-        <font><a href="./">HOME </a><span>/</span>  PORTFOLIO GRID</font>
+    <div class="aboutpart1">
+        <div class="aboutpart1-box">
+        <p> ECOMMERCIAL DESIGN</p>
+        <font><a href="./">HOME</a>&nbsp;&nbsp;<span>/</span>&nbsp;&nbsp;<a href="">OUR SERVICES </a>&nbsp;&nbsp;<span>/</span>&nbsp;&nbsp;ECOMMERCIAL DESIGN</font>
         </div>
     </div>
 </template>
@@ -11,16 +11,16 @@ export default {
 }
 </script>
 <style lang="less" scoped>
-.projectspart1{
+.aboutpart1{
     width: 100%;
     height: 335px;
     background-color:rgb(33, 33, 33) ;
     position: relative;
-    .projectspart1-box{
-        width: 300px;
+    .aboutpart1-box{
+        width: 500px;
         height: 90px;
         position: absolute;
-        margin-left: 810px;
+        margin-left: 710px;
         margin-top: 122px;
         p{
             font-size: 35px;
@@ -46,4 +46,3 @@ export default {
     }
 }
 </style>
-

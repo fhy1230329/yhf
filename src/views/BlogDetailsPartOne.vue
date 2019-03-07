@@ -1,8 +1,8 @@
 <template>
-    <div class="aboutpart1">
-        <div class="aboutpart1-box">
-        <p> ECOMMERCIAL DESIGN</p>
-        <font><a href="./">HOME</a>&nbsp;&nbsp;<span>/</span>&nbsp;&nbsp;<a href="/Services">OUR SERVICES </a>&nbsp;&nbsp;<span>/</span>&nbsp;&nbsp;ECOMMERCIAL DESIGN</font>
+    <div class="blogdetailspart1">
+        <div class="blogdetailspart1-box">
+        <p>BLOG</p>
+        <font><a href="./">HOME</a>&nbsp;&nbsp;<span>/</span>&nbsp;&nbsp;<a href="/BLOG">BLOG</a>&nbsp;&nbsp;<span>/</span>&nbsp;&nbsp;BLOG DETAILS</font>
         </div>
     </div>
 </template>
@@ -11,16 +11,16 @@ export default {
 }
 </script>
 <style lang="less" scoped>
-.aboutpart1{
+.blogdetailspart1{
     width: 100%;
     height: 335px;
     background-color:rgb(33, 33, 33) ;
     position: relative;
-    .aboutpart1-box{
-        width: 500px;
+    .blogdetailspart1-box{
+        width: 300px;
         height: 90px;
         position: absolute;
-        margin-left: 710px;
+        margin-left: 810px;
         margin-top: 122px;
         p{
             font-size: 35px;

@@ -12,7 +12,7 @@
             </div>
           </div>
           <p class="p-1">
-            <a href>2016 Interior Design Trends</a>
+            <a href="/BlogDetails">2016 Interior Design Trends</a>
             Morbi vehicula a nibh in commodo. Aliquam quis dolor eget lectus pulvinar eu rhoncus ligula. Ut leo mauris, molestie
             <br>imperdiet consequat in, varius ac sapien
           </p>
@@ -28,7 +28,7 @@
             </div>
           </div>
           <p class="p-1">
-            <a href>15 Notable Products at ARC Interior Design Contest</a>
+            <a href="/BlogDetails">15 Notable Products at ARC Interior Design Contest</a>
             Morbi vehicula a nibh in commodo. Aliquam quis dolor eget lectus pulvinar eu rhoncus ligula. Ut leo mauris, molestie
             <br>imperdiet consequat in, varius ac sapien
           </p>
@@ -44,7 +44,7 @@
             </div>
           </div>
           <p class="p-1">
-            <a href>5 Small Apartments Showcase The Flexibility Of Compact Design</a>
+            <a href="/BlogDetails">5 Small Apartments Showcase The Flexibility Of Compact Design</a>
             Morbi vehicula a nibh in commodo. Aliquam quis dolor eget lectus pulvinar eu rhoncus ligula. Ut leo mauris, molestie
             <br>imperdiet consequat in, varius ac sapien
           </p>
@@ -60,7 +60,7 @@
             </div>
           </div>
           <p class="p-1">
-            <a href>Small Home Designs Under 50 Square Meters</a>
+            <a href="/BlogDetails">Small Home Designs Under 50 Square Meters</a>
             Morbi vehicula a nibh in commodo. Aliquam quis dolor eget lectus pulvinar eu rhoncus ligula. Ut leo mauris, molestie
             <br>imperdiet consequat in, varius ac sapien
           </p>
@@ -76,7 +76,7 @@
             </div>
           </div>
           <p class="p-1">
-            <a href>5 Small Studio Apartments With Beautiful Design</a>
+            <a href="/BlogDetails">5 Small Studio Apartments With Beautiful Design</a>
             Morbi vehicula a nibh in commodo. Aliquam quis dolor eget lectus pulvinar eu rhoncus ligula. Ut leo mauris, molestie
             <br>imperdiet consequat in, varius ac sapien
           </p>
@@ -110,36 +110,80 @@
         </div>
         <div class="blogpart2-2-2">
           <font>CATEGORIES</font>
-          <a href>> Business Market (5)</a>
-          <a href>> Socials Network (12)</a>
-          <a href>> Team Work (10)</a>
-          <a href>> Product Services (9)</a>
-          <a href>> Socials Ecommerce (6)</a>
+          <span>
+            <a href>> Business Market</a>&nbsp;(5)
+          </span>
+          <span>
+            <a href>> Socials Network</a>&nbsp;(12)
+          </span>
+          <span>
+            <a href>> Team Work</a>&nbsp;(10)
+          </span>
+          <span>
+            <a href>> Product Services</a>&nbsp;(9)
+          </span>
+          <span>
+            <a href>> Socials Ecommerce</a>&nbsp;(6)
+          </span>
         </div>
         <div class="blogpart2-2-3">
-          <p>Amazing Theme! You<br>
-            can customize it very<br>
-            easy to fit your needs.
+          <p>Amazing Theme! You
+            <br>can customize it very
+            <br>easy to fit your needs.
           </p>
-          <a href="">BUY NOW</a>
+          <a href>BUY NOW</a>
         </div>
-        <div class="blogpart2-2-4"></div>
+        <div class="blogpart2-2-4">
+          <font>TAGS</font>
+          <div class="blogpart2-2-4-1">
+            <a href="">audio</a>
+            <a href="" >galley</a>
+            <a href="" >image</a>
+          </div>
+          <div class="blogpart2-2-4-2">
+            <a href="" class="a-1">music</a>
+            <a href="">photo</a>
+            <a href="">quote</a>
+          </div>
+          <div class="blogpart2-2-4-3">
+            <a href="" class="a-1">text</a>
+            <a href="">video</a>
+            <a href="">vimeo</a>
+          </div>
+         <div class="blogpart2-2-4-4"><a href="">yotube</a></div> 
+        </div>
         <div class="blogpart2-2-5">
-            <font>ARCHIVES</font>
-          <a href>> March 2016(4)</a>
-          <a href>> Febuary 2016 (9)</a>
-          <a href>> January 2016 (34)</a>
-          <a href>> December 2015 (22)</a>
-          <a href>> November 2015 (35)</a>
-          <a href>> Octorber 2015 (4)</a>
-          <a href>> September 2015 (26)</a>
-          <a href>> August (11)</a>
+          <font>ARCHIVES</font>
+          <span>
+            <a href>> March 2016</a>(4)
+          </span>
+          <span>
+            <a href>> Febuary 2016</a>(9)
+          </span>
+          <span>
+            <a href>> January 2016</a>(34)
+          </span>
+          <span>
+            <a href>> December 2015</a>(22)
+          </span>
+          <span>
+            <a href>> November 2015</a>(35)
+          </span>
+          <span>
+            <a href>> Octorber 2015</a>(4)
+          </span>
+          <span>
+            <a href>> September 2015</a>(26)
+          </span>
+          <span>
+            <a href>> August</a>(11)
+          </span>
         </div>
         <div class="blogpart2-2-6">
-             <font>META</font>
+          <font>META</font>
           <a href>> Site Admin</a>
           <a href>> Log Out</a>
-          <a href>> Entries RSS </a>
+          <a href>> Entries RSS</a>
           <a href>> Comments RSS</a>
           <a href>> WordPress.org</a>
         </div>
@@ -575,8 +619,12 @@ export default {};
               font-size: 24px;
               font-family: initial;
           }
+          span{
+            
+        display: flex;
+        flex-direction: row;
           a{
-              width: 263px;
+              // width: 263px;
               display: block;
               height: 38px;
               text-align: left;
@@ -589,6 +637,7 @@ export default {};
                   margin-left: 10px;
                   transition: 1s;
               }
+          }
           }
       }
       .blogpart2-2-3{
@@ -630,6 +679,127 @@ export default {};
                    }
               }
       }
+      .blogpart2-2-4{
+        width:263px;
+        height: 250px;
+        margin-top: 45px;
+        font{
+              line-height: 40px;
+              width: 263px;
+              height: 60px;
+              display: block;
+              display: flex;
+              align-items: left;
+              font-size: 24px;
+              font-family: initial;
+          }
+          .blogpart2-2-4-1{
+            width: 263px;
+            height: 38px;
+            display: flex;
+            flex-direction: row;
+            a{
+              width:60px;
+              height:38px;
+              display: block;
+              border: solid 1px rgb(236, 240,241);
+              text-decoration: none;
+              line-height: 38px;
+              color: rgb(150, 136, 150);
+              margin-right: 10px;
+              transition: 1s;
+              &:hover{
+                background-color: #eacc1d;
+                border: none;
+                color: #313131;
+                 transition: 1s;
+              }
+            }
+          }
+           .blogpart2-2-4-2{
+            width: 263px;
+            height: 38px;
+            display: flex;
+            flex-direction: row;
+            margin-top: 10px;
+            a{
+              width:55px;
+              height:38px;
+              display: block;
+              border: solid 1px rgb(236, 240,241);
+              text-decoration: none;
+              line-height: 38px;
+              color: rgb(150, 136, 150);
+              margin-right: 10px;
+              transition: 1s;
+              
+              &:hover{
+                background-color: #eacc1d;
+                border: none;
+                color: #313131;
+                 transition: 1s;
+              }
+            }
+             .a-1{
+                width: 63px;
+              }
+          }
+           .blogpart2-2-4-3{
+            width: 263px;
+            height: 38px;
+            display: flex;
+            flex-direction: row;
+            margin-top: 10px;
+            a{
+              width:55px;
+              height:38px;
+              display: block;
+              border: solid 1px rgb(236, 240,241);
+              text-decoration: none;
+              line-height: 38px;
+              color: rgb(150, 136, 150);
+              margin-right: 10px;
+              transition: 1s;
+              
+              &:hover{
+                background-color: #eacc1d;
+                border: none;
+                color: #313131;
+                 transition: 1s;
+              }
+            }
+             .a-1{
+                width: 43px;
+              }
+          }
+           .blogpart2-2-4-4{
+            width: 263px;
+            height: 38px;
+            display: flex;
+            flex-direction: row;
+            margin-top: 10px;
+            a{
+              width:68px;
+              height:38px;
+              display: block;
+              border: solid 1px rgb(236, 240,241);
+              text-decoration: none;
+              line-height: 38px;
+              color: rgb(150, 136, 150);
+              margin-right: 10px;
+              transition: 1s;
+              &:hover{
+                background-color: #eacc1d;
+                border: none;
+                color: #313131;
+                 transition: 1s;
+              }
+            }
+             .a-1{
+                width: 43px;
+              }
+          }
+      }
    .blogpart2-2-5{
           width:263px;
           height: 358px;
@@ -644,8 +814,14 @@ export default {};
               font-size: 24px;
               font-family: initial;
           }
+          span{
+            display: block;
+            height: 38px;
+         width: 263px;
+         display: flex;
+         flex-direction: row;
           a{
-              width: 263px;
+              width: 243px;
               display: block;
               height: 38px;
               text-align: left;
@@ -659,6 +835,7 @@ export default {};
                   transition: 1s;
               }
           }
+      } 
       }
        .blogpart2-2-6{
           width:263px;

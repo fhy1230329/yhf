@@ -103,7 +103,7 @@
               <a href="#">BLOG LIST</a>
             </li>
             <li>
-              <a href="#">BLOG DETAIL</a>
+              <a href="/BlogDetails">BLOG DETAIL</a>
             </li>
           </ul>
         </li>
@@ -143,7 +143,7 @@
           </ul>
         </li>
         <li class="has-sub">
-          <a href="#">
+          <a href="/ContactUs">
             <span>CONTACT US</span>
           </a>
           <ul class="nav-level-2">

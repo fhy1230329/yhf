@@ -16,12 +16,18 @@ export default {
     height: 335px;
     background-color:rgb(33, 33, 33) ;
     position: relative;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     .aboutpart1-box{
         width: 500px;
         height: 90px;
         position: absolute;
-        margin-left: 710px;
-        margin-top: 122px;
+       display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         p{
             font-size: 35px;
             height: 53px;

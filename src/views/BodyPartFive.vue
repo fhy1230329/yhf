@@ -47,12 +47,23 @@ export default {};
 .bodypart5 {
   width: 100%;
   height: 888px;
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
   .bodypart5-1 {
     height: 265px;
+      display: flex;
+     flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0px;
     h2 {
       display: block;
       line-height: 24px;
-      padding-top: 120px;
+      padding-top: 70px;
     }
     img {
       width: 372px;
@@ -63,9 +74,12 @@ export default {};
   .bodypart5-2 {
     width: 1144px;
     height: 498px;
-    margin-left: 388px;
+    position: absolute;
+        top: 265px;
     display: flex;
     flex-direction: row;
+        justify-content: center;
+        align-items: center;
     .bodypart5-2-1 {
       width: 558px;
       height: 498px;

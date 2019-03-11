@@ -108,22 +108,33 @@ export default {};
   width: 100%;
   height:3362px;
   background-color: rgb(245, 245, 245);
+  display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
   .projectspart2-1 {
+      display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     height: 181px;
     width: 100%;
     position: relative;
     ul {
+        
+        justify-content: center;
+        align-items: center;
         position: absolute;
       display: flex;
       flex-direction: row;
       width: 100%;
       height: 77px;
       list-style: none;
-      padding-left: 535px;
-      margin-top: 105px;
+    //   padding-left: 535px;
+    //   margin-top: 105px;
       li {
         list-style: none;
-        margin-left: 50px;
+        margin-right: 50px;
       }
       a {
         width: 125px;
@@ -732,6 +743,10 @@ export default {};
     height: 217px;
     background-color: #eacc1d;
     position: relative;
+     display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     a {
       position: absolute;
       text-decoration: none;
@@ -743,8 +758,11 @@ export default {};
       color: #333333;
       line-height: 41px;
       transition: 0.5s;
-      margin-left: 858px;
-      margin-top: 90px;
+      display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
       &:hover {
         color: rgb(51, 51, 51);
         background-color: white;

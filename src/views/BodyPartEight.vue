@@ -8,32 +8,43 @@
       <br>our newsletter.
     </p>
     <div class="bodypart8-2">
-        <input type="text"   class="email-text" placeholder="email@example.com">
-        <input type="button" class="email-submit" value="SUBSCRIBE">
+      <input type="text" class="email-text" placeholder="email@example.com">
+      <input type="button" class="email-submit" value="SUBSCRIBE">
     </div>
-    </div>
-  
+  </div>
 </template>
 <script>
-export default {
-
-};
+export default {};
 </script>
 <style lang="less" scoped>
 .bodypart8 {
   width: 100%;
   height: 490px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   p {
-    color: rgb(53, 53, 56);
+    color: rgb(102, 100, 100);
     display: block;
+    position: absolute;
+    top: 248px;
   }
 }
 .bodypart8-1 {
+  width: 100%;
   height: 248px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0px;
   h2 {
     display: block;
     line-height: 24px;
-    padding-top: 120px;
+    margin-top: 70px;
   }
   img {
     width: 372px;
@@ -41,43 +52,50 @@ export default {
     margin-top: 40px;
   }
 }
-
-.bodypart8-2{
-    height:82px;
-    .email-text{
-        width:597px;
-        height: 42px;
-        padding-left: 17px;
-        background-color:rgb(230, 230, 230);
-        border: none;
-        outline: none; 
-        position: absolute;
-        left: 580px;
-      &:focus{    
-    border:solid 1px #eacc1d;
-    // border-color: #eacc1d;
-	  background-color:rgb(242, 242, 242);
-}
+.bodypart8-2 {
+  height: 82px;
+  width: 758px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  left: 0px;
+  top: 100px;
+  .email-text {
+    width: 597px;
+    height: 42px;
+    padding-left: 17px;
+    background-color: rgb(230, 230, 230);
+    border: none;
+    outline: none;
+    position: absolute;
+    left: 0px;
+    &:focus {
+      border: solid 1px #eacc1d;
+      // border-color: #eacc1d;
+      background-color: rgb(242, 242, 242);
     }
-   .email-submit{
-       width:161px;
-        height: 42px;
-        margin-left: -5px;
-      background-color: #eacc1d;
-      border: none;
-      font-size: 10px;
-      color:#333333; 
-      outline: none;
+  }
+  .email-submit {
+    left: 597px;
+    position: absolute;
+    width: 161px;
+    height: 42px;
+    background-color: #eacc1d;
+    border: none;
+    font-size: 10px;
+    color: #333333;
+    outline: none;
+    transition: 1s;
+    position: absolute;
+    // left: 1166px;
+    &:hover {
+      background-color: #333333;
+      color: #eacc1d;
       transition: 1s;
-      position: absolute;
-      left: 1166px;
-      &:hover{
-        background-color: #333333;
-        color: #eacc1d;
-        transition: 1s;
-      }
-   }
+    }
+  }
 }
-
 </style>
 

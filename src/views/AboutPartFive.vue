@@ -52,9 +52,16 @@ export default {
 .aboutpart5{
     width: 100%;
     height: 820px;
+     display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
     .aboutpart5-1 {
     height: 265px;
-    h2 {
+   top: 0px;
+   position: absolute;
+   h2 {
       display: block;
       line-height: 24px;
       padding-top: 120px;
@@ -68,7 +75,8 @@ export default {
   .aboutpart5-2{
 width: 1090px;
 height: 500px;
-margin-left: 415px;
+position: absolute;
+top:265px;
 .aboutpart5-2-1{
   height: 250px;
   width: 100%;

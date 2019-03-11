@@ -251,9 +251,16 @@ export default {};
   width: 100%;
   height: 2600px;
   position: relative;
+  display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
   .blogdetailspart2-box {
     height:  2250px;
-    left: 390px;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     position: absolute;
     top: 95px;
     display: flex;

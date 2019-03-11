@@ -91,7 +91,6 @@ export default {};
 .bodypart4 {
   width: 100%;
   height: 1260px;
-  background-color: rgb(125, 204, 197);
   .bodypart4-1 {
     height: 248px;
     background-color: rgb(245, 245, 245);
@@ -110,16 +109,23 @@ export default {};
     background-color: rgb(245, 245, 245);
     height: 77px;
     width: 100%;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     
     ul {
       display: flex;
       flex-direction: row;
       width: 100%;
       height: 77px;
       list-style: none;
-      padding-left: 535px;
+    justify-content: center;
+        align-items: center;
       li {
         list-style: none;
-        margin-left: 50px;
+        margin-right: 50px;
+        
       }
       a {
         width: 125px;
@@ -263,6 +269,10 @@ export default {};
     height: 217px;
     background-color: #eacc1d;
     position: relative;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     a {
       position: absolute;
       text-decoration: none;
@@ -274,8 +284,10 @@ export default {};
       color: #fff;
       line-height: 41px;
       transition: 1s;
-      margin-left: 858px;
-      margin-top: 90px;
+     display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
       &:hover {
         color: rgb(51, 51, 51);
         background-color: white;

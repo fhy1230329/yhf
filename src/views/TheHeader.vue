@@ -127,12 +127,12 @@
           </ul>
         </li>
         <li class="has-sub">
-          <a href="#">
+          <a href="/Shop">
             <span>SHOP</span>
           </a>
           <ul class="nav-level-2">
             <li>
-              <a href="#">STORE CATALOG</a>
+              <a href="/Shop">STORE CATALOG</a>
             </li>
             <li>
               <a href="#">SHOPPING CART</a>

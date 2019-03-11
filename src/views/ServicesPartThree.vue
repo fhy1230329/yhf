@@ -17,12 +17,19 @@ export default {
     height: 420px;
     background-color: #eacb1d;
     position: relative;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     .servicespart3-box{
+      display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: 838px;
         height:220px;
          position: relative;
-         margin-left: 541px;
-         top:121px;
+        
          p{
              font-size: 39px;
              display: block;
@@ -35,9 +42,13 @@ export default {
     width: 220px;
     height: 42px;
     background-color: rgb(22, 21, 21);
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     font-size: 12px;
     line-height: 42px;
-    margin-left: 309px;
+    // margin-left: 309px;
     text-decoration: none;
     color:#fff;
     transition: 1s;

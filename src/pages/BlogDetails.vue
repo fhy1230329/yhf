@@ -24,5 +24,10 @@ export default {
 </script>
 
 <style scoped>
-
+.BlogDetails{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 </style>

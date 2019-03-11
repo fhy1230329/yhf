@@ -7,6 +7,7 @@ import Blog from '@/pages/Blog'
 import BlogDetails from '@/pages/BlogDetails'
 import ContactUs from '@/pages/ContactUs'
 import About from '@/pages/About'
+import Shop from '@/pages/Shop'
 
 Vue.use(Router)
 
@@ -47,6 +48,11 @@ export default new Router({
       path: '/ContactUs',
       name: 'ContactUs',
       component: ContactUs
+    },
+    {
+      path: '/Shop',
+      name: 'Shop',
+      component: Shop
     },
   ]
 })

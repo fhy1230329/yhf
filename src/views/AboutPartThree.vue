@@ -59,23 +59,48 @@ export default {};
 .aboutpart3 {
   width: 100%;
   height: 842px;
+  position: relative;
+   display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
   .aboutpart3-1 {
     height: 265px;
+     display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0px;
     h2 {
       display: block;
       line-height: 24px;
-      padding-top: 120px;
+      // padding-top: 120px;
+       display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     img {
       width: 372px;
       height: 15px;
       margin-top: 40px;
+       display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
   }
   .aboutpart3-2 {
+     display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     width: 1236px;
     height: 462px;
-    margin-left: 342px;
+    position: absolute;
+    top: 258px;
+    // margin-left: 342px;
     .aboutpart3-2-box {
       width: 1132px;
       height: 462px;

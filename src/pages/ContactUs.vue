@@ -1,5 +1,5 @@
 <template>
-  <div class="BlogDetails">
+  <div class="ContactUs">
     <TheHeader/>
     <ContactUsPartOne/>
     <ContactUsPartTwo/>
@@ -24,5 +24,10 @@ export default {
 </script>
 
 <style scoped>
-
+.ContactUs{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 </style>

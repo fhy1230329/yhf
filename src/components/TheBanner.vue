@@ -81,12 +81,22 @@ export default {
   background:url( https://s2.ax1x.com/2019/03/01/kHNWAx.png) no-repeat;
   background-size: 100% 872px;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
   .slide-1-1{
     position: absolute;
     width: 580px;
     height:216px;
     margin-top:328px ;
-    margin-left: 670px;
+    // margin-left: 670px;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0px;
     p{
       display: block;
       font-size: 26px;
@@ -106,7 +116,9 @@ export default {
       }
     .a-box{ display: flex;
     flex-direction: row;
-    margin-left: 126px;
+   display: flex;
+  justify-content: center;
+  align-items: center;
     margin-top: 54px;
      .a-1{
       width: 156px;
@@ -149,12 +161,21 @@ export default {
   height: 872px;
   background:url( https://s2.ax1x.com/2019/03/01/kHNfN6.png) no-repeat;
   background-size: 100% 872px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
    .slide-2-1{
     position: absolute;
     width: 580px;
     height:216px;
     margin-top:328px ;
-    margin-left: 670px;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0px;
     p{
       display: block;
       font-size: 26px;
@@ -220,12 +241,20 @@ export default {
   height: 872px;
    background:url( https://s2.ax1x.com/2019/03/01/kHNh4K.png) no-repeat;
    background-size: 100% 872px;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
     .slide-3-1{
     position: absolute;
     width: 580px;
     height:216px;
     margin-top:328px ;
-    margin-left: 670px;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0px;
     p{
       display: block;
       font-size: 26px;

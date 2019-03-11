@@ -64,28 +64,47 @@ export default {};
   position: relative;
   width: 100%;
   height: 605px;
+  display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
   background-color: #ffffff;
   .servicespart4-1 {
     height: 265px;
+    position: absolute;
+     display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 0px;
     h2 {
       display: block;
       line-height: 24px;
-      padding-top: 120px;
+       display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     img {
       width: 372px;
       height: 15px;
       margin-top: 40px;
+       display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
   }
   .servicespart4-2 {
     width: 1108px;
     height: 300px;
     position: absolute;
-    left: 406px;
+   display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     top: 265px;
-    display: flex;
-    flex-direction: column;
+    
     .servicespart4-2-box1 {
       width: 100%;
       height: 150px;

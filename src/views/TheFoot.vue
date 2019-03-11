@@ -257,8 +257,8 @@ export default {
   .gotop {
     position: fixed; 
     top: 105%; 
-    left: 65%;
-    margin-left: 600px; 
+    left: 90%;
+    // margin-left: 600px; 
     margin-top: -125px; 
      transition: 1s;
   } 

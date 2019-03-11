@@ -35,12 +35,19 @@ export default {
     width: 100%;
     height: 655px;
     position: relative;
+     display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     .aboutpart2-box{
         width: 1172px;
         height: 562px;
         position: absolute;
         top:92px;
-        left: 374px;
+         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         display: flex;
         flex-direction: row;
         .aboutpart2-1{

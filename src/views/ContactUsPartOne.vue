@@ -16,12 +16,17 @@ export default {
     height: 335px;
     background-color:rgb(33, 33, 33) ;
     position: relative;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     .contactuspart1-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: 300px;
         height: 90px;
-        position: absolute;
-        margin-left: 810px;
-        margin-top: 122px;
         p{
             font-size: 35px;
             height: 53px;

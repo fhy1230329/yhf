@@ -199,12 +199,20 @@ export default {};
   width: 100%;
   height: 3858px;
   position: relative;
+  display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
   .blogpart2-box {
     width: 1140px;
     height: 3609px;
-    left: 390px;
+    // left: 390px;
     position: absolute;
     top: 95px;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     display: flex;
     flex-direction: row;
     .blogpart2-box1 {

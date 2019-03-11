@@ -77,12 +77,13 @@ export default {
      data() {
       return {
         swiperOption: {
-          slidesPerView: 1,
+          slidesPerView:1,
           spaceBetween: 30,
           loop: true,
           pagination: {
             el: '.swiper-pagination',
             clickable: true
+            
           },
           navigation: {
             nextEl: '.swiper-button-next',
@@ -99,13 +100,24 @@ export default {
       width: 100%;
       height: 635px;
       background-color:rgb(41,39,40) ; 
+       display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
       .bodypart7-1 {
     height: 248px;
     background-color: rgb(41,39,40);
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0px;
     h2 {
       display: block;
       line-height: 24px;
-      padding-top: 120px;
+    
       color: aliceblue;
     }
     img {
@@ -118,7 +130,8 @@ export default {
    .bodypart7-2{
        width: 1200px;
        height: 292px;
-       margin-left: 360px;
+        position: absolute;
+        top: 248px;
    }
 .class-1{
   height: 292px;
@@ -330,9 +343,15 @@ export default {
 
 .swiper-button-prev{
       height: 18px; 
-
+  
 }
 .swiper-button-next{
       height: 18px;    
+}
+.swiper-pagination{
+  display: flex;
+        flex-direction:row;
+        justify-content: center;
+        align-items: center;
 }
 </style>

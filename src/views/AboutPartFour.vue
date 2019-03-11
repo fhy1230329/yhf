@@ -1,6 +1,6 @@
 <template>
-    <div class="aboutpart3">
-        <div class="aboutpart3-box">
+    <div class="aboutpart4">
+        <div class="aboutpart4-box">
             <p>We are creative interior design, architecture and 
             decor your space</p>
             <a href="">WORK WITH US</a>
@@ -12,17 +12,23 @@ export default {
 }
 </script>
 <style lang="less" scoped>
-.aboutpart3{
+.aboutpart4{
     width: 100%;
     height: 420px;
     background-color: #eacb1d;
     position: relative;
-    .aboutpart3-box{
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    .aboutpart4-box{
+      display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: 838px;
         height:220px;
          position: relative;
-         margin-left: 541px;
-         top:121px;
          p{
              font-size: 39px;
              display: block;
@@ -34,17 +40,21 @@ export default {
     display: block;
     width: 220px;
     height: 42px;
-    background-color: rgb(22, 21, 21);
+    background-color: #fff;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     font-size: 12px;
     line-height: 42px;
-    margin-left: 309px;
+    // margin-left: 309px;
     text-decoration: none;
-    color:#fff;
+    color:rgb(22, 21, 21);
     transition: 1s;
     margin-top: 63px;
     &:hover {
-      color: rgb(22, 21, 21);
-      background-color: #fff;
+      color: #fff;
+      background-color:rgb(22, 21, 21) ;
       transition: 1s;
     }
   }

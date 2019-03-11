@@ -45,24 +45,49 @@ export default {};
 .bodypart3 {
   width: 100%;
   height: 1135px;
+  position: relative;
+   display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 }
 .bodypart3-1 {
-  height: 248px;
+  height: 265px;
+     display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0px;
   h2 {
     display: block;
-    line-height: 24px;
-    padding-top: 120px;
+      line-height: 24px;
+      // padding-top: 120px;
+       display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
   }
   img {
-    width: 372px;
-    height: 15px;
-    margin-top: 40px;
+     width: 372px;
+      height: 15px;
+      margin-top: 40px;
+       display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
   }
 }
 .bodypart3-2 {
   width: 746px;
   height: 788px;
-  margin-left: 587px;
+ position: absolute;
+        top: 265px;
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
 }
 .bodypart3-2-1 {
   display: flex;

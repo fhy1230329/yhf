@@ -42,18 +42,31 @@ export default {};
   // background-color: plum;
   display: flex;
   flex-direction: row;
+  
+  
 }
 .bodypart2-1 {
   background: url("https://s2.ax1x.com/2019/02/26/kIUBK1.jpg");
   background-size: 640px 420px;
   width: 33.3%;
   height: 420px;
+   display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 }
 .bodypart2-1-1 {
-//  width: 33.3%;
+ width:100%;
   height: 420px;
+  display: flex;
+  position: relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
   background-color: rgba(12, 11, 11, 0.53);
   p {
+    position: absolute;
+    top: 0px;
     color: darkgray;
     font-size: 16px;
     padding-top: 130px;
@@ -64,6 +77,10 @@ export default {};
     }
   }
   a {
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     display: block;
     width: 160px;
     height: 42px;
@@ -71,10 +88,12 @@ export default {};
     font-size: 12px;
     line-height: 42px;
     margin-top: 40px;
-    margin-left: 240px;
+    // margin-left: 240px;
     text-decoration: none;
     color: rgb(22, 21, 21);
     transition: 1s;
+    position: absolute;
+    top: 230px;
     &:hover {
       color: #eacc1d;
       background-color: rgb(22, 21, 21);

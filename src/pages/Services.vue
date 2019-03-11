@@ -29,5 +29,10 @@ export default {
 </script>
 
 <style scoped>
-
+.Services{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 </style>

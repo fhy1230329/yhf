@@ -135,7 +135,7 @@
               <a href="/Shop">STORE CATALOG</a>
             </li>
             <li>
-              <a href="#">SHOPPING CART</a>
+              <a href="/ShopCart">SHOPPING CART</a>
             </li>
             <li>
               <a href="#">SINGLE PRODUCT</a>

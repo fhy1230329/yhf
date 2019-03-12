@@ -1,32 +1,35 @@
 <template>
-  <div class="TheShopBody">
+  <div class="TheShopCartBody">
     <TheShopBodyPartOne/>
-    <TheShopBodyPartTwo/>
-    <TheShopBodyPartThree/>
+   <TheShopCartBodyPartOne/>
+   <TheShopCartBodyPartTwo/>
+   <TheShopBodyPartThree/>
      <TheShopBodyFoot/>
   </div>
 </template>
 
 <script>
 import TheShopBodyPartOne from '@/views/TheShopBodyPartOne'
-import TheShopBodyPartTwo from '@/views/TheShopBodyPartTwo'
+import TheShopCartBodyPartOne from '@/views/TheShopCartBodyPartOne'
+import TheShopCartBodyPartTwo from '@/views/TheShopCartBodyPartTwo'
 import TheShopBodyPartThree from '@/views/TheShopBodyPartThree'
 import TheShopBodyFoot from '@/views/TheShopBodyFoot'
 export default {
-  name: 'Index',
+  name: 'ShopCart',
   components:{
     TheShopBodyPartOne,
-   TheShopBodyPartTwo,
-   TheShopBodyPartThree,
+TheShopCartBodyPartOne,
+TheShopCartBodyPartTwo,
+TheShopBodyPartThree,
    TheShopBodyFoot,
   }
 }
 </script>
 
 <style scoped>
-.TheShopBody{
+.TheShopCartBody{
     width: 1174px;
-    height: 3680px;
+    height: 2073px;
     background-color: white;
   display: flex;
   flex-direction: column;

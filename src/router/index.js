@@ -8,6 +8,7 @@ import BlogDetails from '@/pages/BlogDetails'
 import ContactUs from '@/pages/ContactUs'
 import About from '@/pages/About'
 import Shop from '@/pages/Shop'
+import ShopCart from '@/pages/ShopCart'
 
 Vue.use(Router)
 
@@ -53,6 +54,11 @@ export default new Router({
       path: '/Shop',
       name: 'Shop',
       component: Shop
+    },
+    {
+      path: '/ShopCart',
+      name: 'ShopCart',
+      component: ShopCart
     },
   ]
 })

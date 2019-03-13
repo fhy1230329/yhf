@@ -192,7 +192,7 @@ export default {};
           width: 80px;
           height: 40px;
           border: none;
-          background-color: #ebe6e6;
+          background-color: rgb(242, 242, 242);
           padding-left: 10px;
           margin-top: 30px;
         }
@@ -268,7 +268,7 @@ export default {};
           width: 80px;
           height: 40px;
           border: none;
-          background-color: #ebe6e6;
+          background-color: rgb(242, 242, 242);
           padding-left: 10px;
           margin-top: 30px;
         }
@@ -343,7 +343,7 @@ export default {};
           width: 80px;
           height: 40px;
           border: none;
-          background-color: #ebe6e6;
+          background-color: rgb(242, 242, 242);
           padding-left: 10px;
           margin-top: 30px;
         }

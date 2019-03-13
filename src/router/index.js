@@ -9,9 +9,9 @@ import ContactUs from '@/pages/ContactUs'
 import About from '@/pages/About'
 import Shop from '@/pages/Shop'
 import ShopCart from '@/pages/ShopCart'
+import SingleProduct from '@/pages/SingleProduct'
 
 Vue.use(Router)
-
 export default new Router({
   mode:'history',//去掉#锚点
   routes: [
@@ -59,6 +59,12 @@ export default new Router({
       path: '/ShopCart',
       name: 'ShopCart',
       component: ShopCart
+    },
+   
+    {
+      path: '/SingleProduct',
+      name: 'SingleProduct',
+      component: SingleProduct
     },
   ]
 })
